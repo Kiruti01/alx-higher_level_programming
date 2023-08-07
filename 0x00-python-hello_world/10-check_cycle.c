@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * check_cycle - checks if a linked list contains a cycle
- * @list: linked list to check
- * Return: 1 if the list has a cycle, 0 if it doesn't
+ * check_cycle - chks if lnkd lst contains cycle
+ * @list: lnkd lst to chck
+ * Return: 1 if has cycle, 0 if it doesn't
  */
 int check_cycle(listint_t *list)
 {
