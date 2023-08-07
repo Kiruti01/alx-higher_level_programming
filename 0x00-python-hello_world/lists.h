@@ -3,6 +3,11 @@
 
 #include <stdlib.h>
 
+/**
+ * struct listint_s - Structure for an integer linked list
+ * @n: The integer data of the node
+ * @next: Pointer to the next node in the list
+ */
 
 typedef struct listint_s
 {
