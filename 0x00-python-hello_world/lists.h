@@ -7,13 +7,13 @@
 /**
  * struct listint_s - Structure for an integer linked list
  * @n: The integer data of the node
- * @nxt: Pointer to the next node in the list
+ * @next: Pointer to the next node in the list
  */
 
 typedef struct listint_s
 {
 	int n;
-	struct listint_s *nxt;
+	struct listint_s *next;
 } listint_t;
 
 /**
