@@ -26,7 +26,7 @@ typedef struct listint_s
 size_t print_listint(const listint_t *h);
 
 /**
- * add_nodeint_end - Adds a new node at the end of a linked list of integers
+ * add_nodeint_end - Adds new node at end of a lnkd lst of ints
  * @head: A pointer to a pointer to the head of the linked list
  * @n: The integer value to be added to the new node
  *
@@ -41,8 +41,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 
 /**
- * insert_node - Inserts a new node with a given integer value into a sorted linked list
- * @head: A pointer to a pointer to the head of the linked list
+ * insert_node - Insrts nw nde w/ gvn int val into srtd lnkd lst
+ * @head: A pointer to a pntr to the head of lnkd list
  * @number: The integer value to be inserted into the linked list
  *
  * Return: A pointer to the newly inserted node, or NULL on failure
