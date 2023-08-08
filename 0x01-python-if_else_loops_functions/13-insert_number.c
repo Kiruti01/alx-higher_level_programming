@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * insert_node - Inserts a new node with a given integer value into a sorted linked list
- * @head: A pointer to a pointer to the head of the linked list
- * @number: The integer value to be inserted into the linked list
+ * insert_node - Insrts new nde w/ gvn int val nto srtd lnkd lst
+ * @head: A pointer to a pntr to head of lnkd lst
+ * @number: The int val to be insrtd into the lnkd lst
  *
- * Return: A pointer to the newly inserted node, or NULL on failure
+ * Return: A pntr to nwly insrtd nde, or NULL failure
  */
 listint_t *insert_node(listint_t **head, int number)
 {
