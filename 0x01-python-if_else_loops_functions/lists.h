@@ -5,16 +5,16 @@
 
 /**
  * struct listint_s - A singly linked list of integers
- * @i: The integer value stored in the node
- * @nxt: A pointer to the next node in the list
+ * @n: The integer value stored in the node
+ * @next: A pointer to the next node in the list
  *
  * Description: Defines a structure for a singly linked list node that holds an
  * integer value and a pointer to the next node in the list.
  */
 typedef struct listint_s
 {
-	int i;
-	struct listint_s *nxt;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /**
@@ -28,11 +28,11 @@ size_t print_listint(const listint_t *h);
 /**
  * add_nodeint_end - Adds a new node at the end of a linked list of integers
  * @head: A pointer to a pointer to the head of the linked list
- * @i: The integer value to be added to the new node
+ * @n: The integer value to be added to the new node
  *
  * Return: A pointer to the newly added node, or NULL on failure
  */
-listint_t *add_nodeint_end(listint_t **head, const int i);
+listint_t *add_nodeint_end(listint_t **head, const int n);
 
 /**
  * free_listint - Frees a linked list of integers
