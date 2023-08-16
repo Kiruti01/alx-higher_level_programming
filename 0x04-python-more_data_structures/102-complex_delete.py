@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def comlex_delete(a_dictionary, value):
+def complex_delete(a_dictionary, value):
     keys_2del = []
     for value in a_dictionary:
         if a_dictionary[key] == value:
