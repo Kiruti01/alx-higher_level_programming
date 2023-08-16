@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def comlex_delete(a_dictionary, value):
     keys_2del = []
-    for key in a_dictionary:
+    for value in a_dictionary:
         if a_dictionary[key] == value:
-            keys_2del.append(key)
-    for key in keys_2del:
-        del a_dictionary[key]
-    return a_dictionary
+            keys_2del.append(value)
+    for value in keys_2del:
+        del a_dictionary[value]
+    return (a_dictionary)
