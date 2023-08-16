@@ -9,7 +9,7 @@
 void print_python_bytes(PyObject *p)
 {
 	char *str;
-	long int size, i , limit;
+	long int size, i, limit;
 
 	printf(" [.] bytes object info\n");
 	if (!PyBytes_check(p))
@@ -31,9 +31,9 @@ void print_python_bytes(PyObject *p)
 
 	printf(" first %ld\n bytes:", limit);
 
-	for (i= 0; i < limit; i++)
+	for (i = 0; i < limit; i++)
 		if (str[i] >= 0)
-			printf(" %02x", str[i]):
+			printf(" %02x", str[i]);
 		else
 		printf(" %02x", 256 + str[i]);
 
