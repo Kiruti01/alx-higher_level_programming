@@ -13,7 +13,7 @@
 
 
 ## Author:
-* ** Michael Kiruti ** <[Kiruti01](https://github.com/Kiruti01)>
+* **Michael Kiruti** <[Kiruti01](https://github.com/Kiruti01)>
 
 ## Acknowledgements
 
