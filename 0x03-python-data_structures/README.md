@@ -1,6 +1,6 @@
 # 0x03. Python - Data Structures: Lists, Tuples
 
-![data](../foldr/dta.gif)
+![My GIF](../foldr/dta.gif)
 
 ## Table of contents
 Files | Description

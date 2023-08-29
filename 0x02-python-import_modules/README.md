@@ -1,6 +1,6 @@
 # Python - import & modules
 
-![import](../foldr/python-import.gif)
+![My GIF](../foldr/python-import-2.gif)
 
 ## Tasks :page_with_curl:
 
