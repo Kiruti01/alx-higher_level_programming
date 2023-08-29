@@ -1,6 +1,6 @@
 # Python - Exceptions
 
-![Im An Exception Special GIF](https://tenor.com/view/im-an-exception-special-excussed-special-treatment-immunity-gif-14898132)
+![Im An Exception Special GIF](../foldr/im-an-exception-special.gif)
 
 In this project, I learned handling errors and exceptions in Python with `try` and `except`.
 
