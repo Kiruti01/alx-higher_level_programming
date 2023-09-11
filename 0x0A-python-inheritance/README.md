@@ -1,5 +1,7 @@
 # Python - Inheritance
 
+![My GIF](foldr/inheritance.gif)
+
 ## Function Prototypes :floppy_disk:
 
 Prototypes for functions written in this project:
