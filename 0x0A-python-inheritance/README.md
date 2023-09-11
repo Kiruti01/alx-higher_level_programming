@@ -1,6 +1,6 @@
 # Python - Inheritance
 
-![My GIF](foldr/inheritance.gif)
+![My GIF](foldr/hello-world.gif)
 
 ## Function Prototypes :floppy_disk:
 
