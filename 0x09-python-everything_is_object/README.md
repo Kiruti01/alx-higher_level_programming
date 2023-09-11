@@ -229,3 +229,57 @@ a is b
 >>> a += [4]
 >>> id(a)
 ```
+
+## Advanced tasks
+
+* **29. #pythonic**
+  * [100-magic_string.py](./100-magic_string.py): Python function `magic_string()` that returns the string `"BestSchool"` n times the number of iteration.
+
+* **30. Low memory cost**
+  * [101-locked_class.py](./101-locked_class.py): Python class `LockedClass` with no attributes that prevents the user from dynamically creating any new instance attributes not called `first_name`.
+
+* **31. int 1/3**
+  * [103-line1.txt](./103-line1.txt): How many `int` objects are created by the execution of the first line in this script?
+  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
+```
+a = 1
+b = 1
+```
+
+* **32. int 2/3**
+  * [104-line1.txt](./104-line1.txt): How many `int` objects are created by the execution of the first line in this script?
+  * [104-line2.txt](./104-line2.txt): How many `int` objects are created by the execution of the second line in this script?
+  * [104-line3.txt](./104-line3.txt): After the execution of line 3, is the `int` object pointed to by `a` deleted?
+  * [104-line4.txt](./104-line4.txt): After the execution of line 4, is the `int` object pointed to by `b` deleted?
+  * [104-line5.txt](./104-line5.txt): How many `int` objects are created by the execution of the last line in this script?
+```
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+```
+
+* **33. int 3/3**
+  * [105-line1.txt](./105-line1.txt): Before the execution of line 2 in this script, how many `int` objects have been created and are still in memory?
+```
+print("I")
+print("Love")
+print("Python")
+```
+![alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/70f9ea0e969dfcc407a7427aba4786d87a920494.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220628T145801Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=28cc1540430447d619d0bde0fd16f57d694de58ae054aad768cb3f0b018d4095)
+
+
+* **34. Clear strings**
+  * [106-line1.txt](./106-line1.txt): How many `str` objects are created by the execution of the first line in this script?
+  * [106-line2.txt](./106-line2.txt): How many `str` objects are created by the execution of the second line in this script?
+  * [106-line3.txt](./106-line3.txt): After the execution of line 3, is the `str` object pointed to by `a` deleted?
+  * [106-line4.txt](./106-line4.txt): After the execution of line 4, is the `str` object pointed to by `b` deleted?
+  * [106-line5.txt](./106-line5.txt): How many `str` objects are created by the execution of the last line in this script?
+```
+a = "SCHL"
+b = "SCHL"
+del a
+del b
+c = "SCHL"
+```
