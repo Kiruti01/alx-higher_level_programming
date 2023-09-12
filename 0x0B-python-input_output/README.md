@@ -1,9 +1,9 @@
 # Python - Input/Output
 
-In this project, I practiced file handling in Python. I used the builtin `with`, `open`, and `read` functions with the `json` module to read and write files and serialize and deserialize objects with JSON.
+In this project, I used the `with`, `open`, and `read` functions with the `json` module to read and write files and serialize and deserialize objects with JSON.
 
 
-## Function Prototypes :floppy_disk:
+## Function Prototypes
 
 Prototypes for functions written in this project:
 
@@ -22,7 +22,7 @@ Prototypes for functions written in this project:
 | `12-pascal_triangle.py` | `def pascal_triangle(n):` |
 | `100-append_after.py` | `def append_after(filename="", search_string="", new_string=""):` |
 
-## Tasks :page_with_curl:
+## Tasks
 
 * **0. Read file**
   * [0-read_file.py](./0-read_file.py): Python function that prints the contents of a UTF8 text file to standard output.
