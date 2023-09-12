@@ -1,5 +1,7 @@
 # Python - Input/Output
 
+![gif](../foldr/anime.gif)
+
 In this project, I used the `with`, `open`, and `read` functions with the `json` module to read and write files and serialize and deserialize objects with JSON.
 
 
