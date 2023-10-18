@@ -1,4 +1,4 @@
-## SQL - More queries
+## 0X0E. SQL - More queries
 
 
 <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg">
