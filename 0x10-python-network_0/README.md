@@ -1,15 +1,15 @@
 # Python - Network #0
 
-In this networking project, I used `curl` in Bash scripts to send various types
+In this networking project, used `curl` in Bash scripts to send various types
 of HTTP headers. In the process, I learned about how URL's work, domain names,
 the many different HTTP request/repsonse header fields and status codes, and
 how to utilize cookies.
 
-Task six was an algorithm challenge separate from the overall project theme
+Task 6 was an algorithm challenge separate from the overall project theme
 completed in Python.
 
 
-## Tasks :page_with_curl:
+## Tasks
 
 NOTE: The `curl` behavior in all Bash scripts were written to interact with a
 server set up on a container.
