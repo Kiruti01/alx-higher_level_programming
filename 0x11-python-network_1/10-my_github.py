@@ -8,10 +8,6 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python script.py <username> <token>")
-        sys.exit(1)
-
     auth = HTTPBasicAuth(sys.argv[1], sys.argv[2])
 
     try:
