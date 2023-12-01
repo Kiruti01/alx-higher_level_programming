@@ -15,9 +15,9 @@ if __name__ == "__main__":
     auth = HTTPBasicAuth(sys.argv[1], sys.argv[2])
 
     try:
-        response = requests.get("https://api.github.com/user", auth=auth)
-        response.raise_for_status()  # Raise an exception for 4xx and 5xx status codes
-        print(response.json().get("id"))
-    except requests.exceptions.RequestException as e:
+        r = requests.get("https://api.github.com/user", auth=auth)
+        r.raise_for_status()
+        print(r.json().get("id"))
+    except r.exceptions.RequestException as e:
         print(f"Error: {e}")
         sys.exit(1)
